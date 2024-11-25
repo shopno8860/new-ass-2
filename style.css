@@ -190,8 +190,10 @@ header{
 }
 
 
-.trainings{
+.bmi{
     .title{
+        width: 50%;
+        margin: 0 auto;
         h1{
             color: rgb(255, 255, 255);
             font-family: Inter;
@@ -204,18 +206,169 @@ header{
             font-family: Inter;
             font-size: 14px;
             font-weight: 400;
-            width: 50%;
+            /* width: 50%; */
             margin-bottom: 58px;
         }
     }
-    .train-images{
-        .row1{
-            .image1{
+}
+.bmi-main{
+    background-color: #2f2f2f;
+    border-radius: 5px;
+    padding: 50px;
+        .bmi-left{
+            padding: 30px;
+            h1{
+            margin-bottom: 2rem;
+            }
+            table{
+                width: 35%;
+                border-collapse: collapse;
+            }
+            td,th{
+                border: 1px solid rgba(255, 255, 255, 0.5);
+                padding: 10px;
+                text-align: center;
+                color: grey;
+            }
+            
+        }
+        .bmi-right{
+            float: right;
+            width: 40%;
+            margin-top:-320px;
+            padding: 40px;
+            
+
+            h1{
+                margin-bottom: 1rem;
+            }
+            p{
+                font-size: 12px;
+                margin-bottom: 20px;
+                color: grey;
+            }
+            .form{
+                input{
+                    width: 44%;
+                    padding:7px 10px;
+                    border: none;
+                    border-radius: 5px;
+                    margin-bottom: 5px;
+                    background: #d7d4d4;
+                    color: azure;
+                }
+                .select-1{
+                    width: 49%;
+                    padding: 7px 15px;
+                    border-radius: 5px;
+                    border: none;
+                    color: grey;
+                    background: #d7d4d4;
+                }
+                .select-2{
+                    width: 99%;
+                    padding: 7px 15px;
+                    border-radius: 5px;
+                    border: none;
+                    color: grey;
+                    background: #d7d4d4;
+                }
+                .cal-btn{
+                    padding: 10px 30px;
+                    margin-top: 20px;
+                    border: none;
+                    background: #E6533C;
+                    border-radius: 50px 50px;
+                    a{
+                        text-decoration: none;
+                        color: aliceblue;
+                    }
+                }
                 
             }
         }
+}
+.team{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    h1{
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    p{
+        font-size: 15px;
+        color: grey;
+        margin-bottom: 50px;
+    }
+    .align-b-left{
+        text-align: left;
+        h3{
+            margin-top: 200px;
+        }
+        
+    }
+    .team-img{
+        padding: 20px;
+        border-radius: 5px;
+        background-color: #2f2f2f;
+        display: grid;
+        row-gap: 15px;
+        column-gap: 15px;
+        grid-template-columns: repeat(3,1fr);
+        .trainer-1{
+            border-radius: 10px;
+            height: 250px;
+            padding: 15px;
+            background-image: url('images/trainer1.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+        }
+        .trainer-2{
+            border-radius: 10px;
+            height: 250px;
+            padding: 15px;
+            background-image: url('images/trainer2.png');
+            background-size: cover;
+            background-repeat: no-repeat; 
+        }
+        .trainer-3{
+            border-radius: 10px;
+            height: 250px;
+            padding: 15px;
+            background-image: url('images/trainer3.png');
+            background-size:cover;
+            background-repeat: no-repeat; 
+        }
+        .trainer-4{
+            border-radius: 10px;
+            height: 250px;
+            padding: 15px;
+            background-image: url('images/trainer4.png');
+            background-size:cover;
+            background-position: center;
+            background-repeat: no-repeat; 
+        }
+        .trainer-5{
+            border-radius: 10px;
+            height: 250px;
+            padding: 15px;
+            background-image: url('images/trainer5.png');
+            background-size: cover;
+            background-repeat: no-repeat; 
+        }
+        .trainer-6{
+            border-radius: 10px;
+            height: 250px;
+            padding: 15px;
+            background-image: url('images/trainer6.png');
+            background-size: cover;
+            background-repeat: no-repeat; 
+        }
     }
 }
+
 
 
 
